@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission</title>
+    <link rel="stylesheet" href="First.css">
+</head>
+
+<body>
+    <form action="Data.txt">
+        <div>
+            <label for="Name"> Name</label>
+            <input type="text" name="Myname" id='Name' placeholder="Full Name"> <br>
+        </div>
+        <br>
+        <div>
+            <label for="role">Roll</label>
+            <input type="text" name="MyRoll" id="role">
+        </div>
+        <br>
+        <div>
+            <label for="mail">Email</label>
+            <input type="email" name="MyEmail" id="mail">
+        </div>
+        <br>
+        <div>
+            <label for="bdate">Birthdate</label>
+            <input type="date" name="MyDate" id="bdate">
+        </div>
+        <br>
+        <div>
+            <label for="seat">Seat</label> 
+            <input type="number" name="MySeat" placeholder="Choose the seat you want" max="10" min="1" id="seat">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="gender">Gender</label> &nbsp;
+            <label for="male" id="gender">Male</label>
+            <input type="radio" name="MyGender" class="blck" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="MyGender" class="blck" id="female">
+            <label for="Other">Other</label>
+            <input type="radio" name="MyGender" class="blck" id="Other">
+        </div>
+        <br>
+        <div>
+            <label for="course">Specialization</label>
+            <select name="Mycourse" id="course">
+                <option value="Elx">Electronics</option>
+                <option value="Extc">Electronics and Telecommunication</option>
+                <option value="It">Information Technology</option>
+                <option value="Cs">Computer</option>
+            </select>
+        </div>
+        About yourself: <br> <textarea name="MyText" cols="155" rows="5"></textarea>
+        <br>
+        <div>
+            <label for="Terms">Terms Condition </label>
+            <input type="checkbox" name="MyBox" id="Terms">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="submit Now">
+            <input type="reset" value="Reset">
+        </div>
+
+
+
+    </form>
+</body>
+
+</html>

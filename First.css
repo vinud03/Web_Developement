@@ -1,0 +1,13 @@
+#seat{
+    width: 5cm;
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+    color: crimson;
+}
+.full-width-contrl{
+    width: 100%;
+}
+.blck{
+    color: black;
+}
